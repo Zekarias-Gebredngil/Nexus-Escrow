@@ -1,0 +1,23 @@
+{
+  "name": "nexus-twa",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config ../vite.frontend.config.mjs",
+    "build": "tsc --noEmit && vite build --config ../vite.frontend.config.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "^5.5.4",
+    "vite": "^8.2.2"
+  }
+}
